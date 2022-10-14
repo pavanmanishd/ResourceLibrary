@@ -1,0 +1,25 @@
+body{
+    background-color: #EEEEEE;
+    max-width: 960px;
+    margin: auto;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 10%;
+    border-color: grey;
+    border-width: 5px;
+}
+h1{
+    color: #222831;
+}
+h2{
+    color: #00ADB5;
+}
+h4{
+    color: #00ADB5;
+}
+a{
+    color: #393E46;
+}
