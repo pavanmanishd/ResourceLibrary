@@ -12,14 +12,26 @@ hr{
     border-width: 5px;
 }
 h1{
-    color: #222831;
+    color: black;
+}
+h1:hover{
+    color: #0060f0;
 }
 h2{
+    color: rgb(1, 35, 35);
+}
+h2:hover{
     color: #00ADB5;
 }
 h4{
     color: #00ADB5;
 }
+h4 :hover{
+    color: #222831;
+}
 a{
     color: #393E46;
+}
+a:hover{
+    color: crimson;
 }
