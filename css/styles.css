@@ -1,37 +1,80 @@
 body{
-    background-color: #EEEEEE;
-    max-width: 960px;
-    margin: auto;
+    width: 100%;
+    overflow-x: hidden;
 }
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    height: 0px;
-    width: 10%;
-    border-color: grey;
-    border-width: 5px;
+.top-container{
+    text-align: center;
+    color: rgb(250, 209, 209);
+    background-color: rgb(6, 6, 6);
+    margin: 0%;
+    padding: 10%;
 }
-h1{
-    color: black;
+
+.main-text{
+    font-family: "Georgia";
+    font-weight: 600;
+    font-size: 6.5rem;
 }
-h1:hover{
-    color: #0060f0;
+
+.side-text{
+    font-family: "Georgia";
+    font-weight: 100;
+    font-size: 1.5rem;
+    padding-top: 3%;
 }
-h2{
-    color: rgb(1, 35, 35);
+
+.languages{
+    text-align: center;
+    padding: 3% 10% 5%;
 }
-h2:hover{
-    color: #00ADB5;
+.languages h1{
+    font-size: 4rem;
+    padding: 5%;
 }
-h4{
-    color: #00ADB5;
+
+
+.row{
+    padding: 0% 5%;
 }
-h4 :hover{
-    color: #222831;
+
+.languages h2{
+    font-family: "Georgia";
+    font-weight: 600;
 }
-a{
-    color: #393E46;
+
+.description{
+    font-family: "Georgia";
+    font-weight: 100;
+    font-size: 1.5rem;
+    
 }
-a:hover{
-    color: crimson;
+
+.languages p{
+    margin-bottom: 0%;
+    font-family:"Nunito" ;
+    font-weight: 800;
+}
+.languages td{
+    padding-top: 0%;
+}
+.tag{
+    color: rgb(65, 80, 92);
+    opacity: 40%;
+}
+
+.tag-link{
+    color: rgb(65, 25, 25);
+
+}
+
+@media (max-width:580px){
+    .main-text{
+        font-size: 4rem;
+    } 
+    .languages h1{
+        font-size: 3rem;
+    }
+    .languages{
+        padding: 3% 3% 5%;
+    }
 }
